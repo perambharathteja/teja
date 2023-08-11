@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a5e8640e25.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <!--Top navbar-->
+    <div class="bg-container d-flex flex-row">
+        <h1 class="market-name">envato<span class="market">market</span></h1>
+        <button class="buynow-btn">Buy now</button>
+    </div>
+    <!--main navbar section-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <h1 class="logo-name">Ciseco.</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav m-auto">
+                <a class="nav-link active" href="#">
+                    Men
+                    <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-link" id="nav-bar1" href="#">Women</a>
+                <a class="nav-link" id="nav-bar2" href="#">Beauty</a>
+                <a class="nav-link" id="nav-bar3" href="#">Sport</a>
+                <a class="nav-link" id="nav-bar4" href="#">Templates ˅</a>
+                <a class="nav-link" id="nav-bar5" href="#">Explore ˅</a>
+            </div>
+            <div class="ml-auto">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--checkout section-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-4">
+                <h1 class="checkout-heading">Checkout</h1>
+                <p class="checkout-description">Homepage / Clothing Categories / <span class="Checkout">Checkout</span></p>
+                <div class="contact-card d-flex flex-row">
+                    <div class="mt-3 ml-4">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="ml-4 mt-2">
+                        <h4 class="contact-info-heading">CONTACT INFO <span><i class="fa-solid fa-check"></i></span></h4>
+                        <p class="contact-info-name">Enrico Smith +855-666-7744</p>
+                    </div>
+                    <div class="ml-auto mt-3">
+                        <button class="change-btn">Change</button>
+                    </div>
+                </div>
+                <div class="shipping-address-card d-flex flex-row mt-4">
+                    <div class="mt-3 ml-4">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <div class="ml-4 mt-2">
+                        <h4 class="contact-info-heading">SHIPPING ADDRESS <span><i class="fa-solid fa-check"></i></span></h4>
+                        <p class="contact-info-name">St. Paul's Road, Norris, SD 57560, Dakota, USA</p>
+                    </div>
+                    <div class="ml-auto mt-3">
+                        <button class="change-btn">Change</button>
+                    </div>
+                </div>
+                <div class="address-card">
+                    <div>
+                        <h6 class="">First name</h6>
+                        <input type="text" name="homepage" class="input"><br><br>
+                    </div>
+                    <div>
+                        <h6 class="">Last name</h6>
+                        <input type="text" name="homepage" class="input"><br><br>
+                    </div>
+                    <div>
+                        <h6 class="">Address</h6>
+                        <input type="text" name="homepage" class="input"><br><br>
+                    </div>
+                    <div>
+                        <h6 class="">Apt, Suite*</h6>
+                        <input type="text" name="homepage" class="input"><br><br>
+                    </div>
+                    <div>
+                        <h6 class="">City</h6>
+                        <input type="text" name="homepage" class="input"><br><br>
+                    </div>
+                    <div>
+                        <h6 class="">Country</h6>
+                        <input list="browsers" name="browser" id="browser" class="input">
+                        <datalist id="browsers">
+                            <option value="India">
+                            <option value="United States">
+                            <option value="Japan">
+                            <option value="America">
+                            <option value="Thailand"></option>
+                        </datalist>
+                    </div>
+                    <div>
+                        <h6 class="">State/Province</h6>
+                        <input type="text" name="homepage" class="input"><br><br>
+                    </div>
+                    <div>
+                        <h6 class="">Postal code</h6>
+                        <input type="text" name="homepage" class="input"><br><br>
+                    </div>
+                    <div>
+                        <h6 class="">Address type</h6>
+                        <div class="address-types d-flex flex-row">
+                            <div>
+                                <input type="radio" id="html" name="fav_language" value="HTML">
+                                <label for="html">Home (All Day Delivery)</label><br>
+                            </div>
+                            <div>
+                                <input type="radio" id="html" name="fav_language" value="HTML">
+                                <label for="html">Office (Delivery 9Am - 5PM)</label><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="payment-btn">Save and next to Payment</button>
+                        <button class="ml-2 mt-3 cancel">Cancel</button>
+                    </div>
+                </div>
+                <div class="contact-card d-flex flex-row mt-3">
+                    <div class="mt-3 ml-4">
+                        <i class="fa-regular fa-credit-card"></i>
+                    </div>
+                    <div class="ml-4 mt-2">
+                        <h4 class="contact-info-heading">PAYMENT METHOD <span><i class="fa-solid fa-check"></i></span></h4>
+                        <p class="contact-info-name">Google / Apple Wallet xxx-xxx-xx55</p>
+                    </div>
+                    <div class="ml-auto mt-3">
+                        <button class="change-btn">Change</button>
+                    </div>
+                </div>
+
+                <hr>
+                <!--order summery-->
+
+                <div class="col-12 mt-4">
+                    <h1 class="order-heading mb-4">Order summery</h1>
+                    <div class="order-container-card d-flex flex-row">
+                        <div>
+                            <img class="order-image" src="https://res.cloudinary.com/dpeygopy6/image/upload/v1691660147/hoodie_grmaha.jpg" />
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="product-heading">Rey Nylon Backpack</h4>
+                            <p class="product-details">Black | <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                                        <path d="m8.707 12.707-1.414-1.414L2.586 16l4.707 4.707 1.414-1.414L6.414 17H19v-2H6.414l2.293-2.293zM15.293 11.293l1.414 1.414L21.414 8l-4.707-4.707-1.414 1.414L17.586 7H5v2h12.586l-2.293 2.293z" />
+                                    </svg></span> 2XL</p>
+                            <div class="product-sizes d-flex flex-row">
+                                <button class="minus-button mr-3">-</button>
+                                <h6 cass="increment-number">1</h6>
+                                <button class="minus-button ml-3">+</button>
+                            </div>
+                        </div>
+                        <div class="ml-auto flex column">
+                            <div class="">
+                                <button class=" money-btn">$74</button>
+                            </div>
+                            <button class="remove-button">Remove</button>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="order-container-card d-flex flex-row">
+                        <div>
+                            <img class="order-image" src="https://i.ibb.co/zrPQM5y/IMG-0622-da9934f6-e827-4f16-a8af-852b10f9180c-1024x1024-2x.jpg" />
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="product-heading">Waffle Knit Beanie</h4>
+                            <p class="product-details">Black | <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                                        <path d="m8.707 12.707-1.414-1.414L2.586 16l4.707 4.707 1.414-1.414L6.414 17H19v-2H6.414l2.293-2.293zM15.293 11.293l1.414 1.414L21.414 8l-4.707-4.707-1.414 1.414L17.586 7H5v2h12.586l-2.293 2.293z" />
+                                    </svg></span> 2XL</p>
+                            <div class="product-sizes d-flex flex-row">
+                                <button class="minus-button mr-3">-</button>
+                                <h6 cass="increment-number">1</h6>
+                                <button class="minus-button ml-3">+</button>
+                            </div>
+                        </div>
+                        <div class="ml-auto flex column">
+                            <div class="">
+                                <button class=" money-btn">$132</button>
+                            </div>
+                            <button class="remove-button">Remove</button>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="order-container-card d-flex flex-row">
+                        <div>
+                            <img class="order-image" src="https://i.ibb.co/jRkNVp7/aurelia-dubois-xzr-JCS4gr-C4-unsplash.jpg" />
+                        </div>
+                        <div class="ml-4">
+                            <h4 class="product-heading">Travel Pet Carrier</h4>
+                            <p class="product-details">Black | <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                                        <path d="m8.707 12.707-1.414-1.414L2.586 16l4.707 4.707 1.414-1.414L6.414 17H19v-2H6.414l2.293-2.293zM15.293 11.293l1.414 1.414L21.414 8l-4.707-4.707-1.414 1.414L17.586 7H5v2h12.586l-2.293 2.293z" />
+                                    </svg></span> 2XL</p>
+                            <div class="product-sizes d-flex flex-row">
+                                <button class="minus-button mr-3">-</button>
+                                <h6 cass="increment-number">1</h6>
+                                <button class="minus-button ml-3">+</button>
+                            </div>
+                        </div>
+                        <div class="ml-auto flex column">
+                            <div class="">
+                                <button class=" money-btn">$28</button>
+                            </div>
+                            <button class="remove-button">Remove</button>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <h4 class="order-heading">Discount code</h4>
+                    <div class="discount-data d-flex flex-row">
+                        <input type="text" name="homepage" class="discount-input"><br><br>
+                        <button class="apply-btn">Apply</button>
+                    </div>
+                    <div class="pices-data mt-3 mb-3">
+                        <div class="">
+                            <h6 class="discount-prices">Subtotal</h6>
+                            <h6 class="discount-prices">Shipping estimate</h6>
+                            <h6 class="discount-prices">Tax estimate</h6>
+                            <h6 class="discount-total">Order total</h6>
+                        </div>
+                        <div>
+                            <h6 class="discount-total">$249.00</h6>
+                            <h6 class="discount-total">$5.00</h6>
+                            <h6 class="discount-total">$24.00</h6>
+                            <h6 class="discount-total">$276.00</h6>
+                        </div>
+                    </div>
+                </div>
+                <button class="confirm-button">Confirm order</button>
+                <div class="learn-more">
+                    <p class="learn-more-description mt-2"><span><i class="fa-solid fa-circle-info"></i></span> Learn more <span class="highlight">Taxes</span> and <span class="highlight">Shipping</span> information</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-md-3">
+                <h1 class="logo-head">Ciseco.</h1>
+                <div class="social-div">
+                    <i class="fa-brands fa-facebook social-icons" style="color: #0b61f4;"></i>
+                    <h class="social-name">Facebook</h>
+                </div>
+                <div class="social-div">
+                    <i class="fa-brands fa-youtube social-icons" style="color: #d0061b;"></i>
+                    <h class="social-name">Youtube</h>
+                </div>
+                <div class="social-div">
+                    <i class="fa-brands fa-telegram social-icons" style="color: #3a78e4;"></i>
+                    <h class="social-name">Telegram</h>
+                </div>
+                <div class="social-div">
+                    <i class="fa-brands fa-twitter social-icons" style="color: #437ee5;"></i>
+                    <h class="social-name">Twitter</h>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3">
+                <h1 class="footer-items-head">Getting started</h1>
+                <p class="footer-items-items">Release Notes</p>
+                <p class="footer-items-items">Upgrade Guide</p>
+                <p class="footer-items-items">Browser Support</p>
+                <p class="footer-items-items">Dark Mode</p>
+            </div>
+            <div class="col-sm-4 col-md-2">
+                <h1 class="footer-items-head">Explore</h1>
+                <p class="footer-items-items">Prototyping</p>
+                <p class="footer-items-items">Design systems</p>
+                <p class="footer-items-items">Pricing</p>
+                <p class="footer-items-items">Security</p>
+            </div>
+            <div class="col-sm-4 col-md-2">
+                <h1 class="footer-items-head">Resources</h1>
+                <p class="footer-items-items">Best practices</p>
+                <p class="footer-items-items">Support</p>
+                <p class="footer-items-items">Developers</p>
+                <p class="footer-items-items">Learn Design</p>
+            </div>
+            <div class="col-sm-4 col-md-2">
+                <h1 class="footer-items-head">Community</h1>
+                <p class="footer-items-items">Discussion Forums</p>
+                <p class="footer-items-items">Code of Conduct</p>
+                <p class="footer-items-items">Contributing</p>
+                <p class="footer-items-items">API Reference</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
